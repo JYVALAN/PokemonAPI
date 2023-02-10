@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-color: rgb(255, 193, 8);
+}
+h1{
+    font-size: 3em;
+    text-decoration: underline;
+    margin-bottom: 200px;
+}
+
+.search{
+   font-size: 1.5em;
+   display: block;
+   
+}
+
+label{
+    margin-bottom: 20px;
+}
+
+div#suggestions{
+    overflow: hidden;
+    margin-left: 0px;
+    
+    border-top: 0px;
+    width: 149px;
+    margin-left: 610px;
+    
+    overflow-y: scroll;
+    scrollbar-color: rgb(0, 0, 0) rgb(178, 178, 178);
+    scrollbar-width: thin;
+    height: 150px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.suggestion{
+    border-bottom: 1px black solid;
+    padding: 10px;
+    background-color: aliceblue;
+    
+}
+.suggestion:hover{
+    cursor: pointer;
+    
+}
